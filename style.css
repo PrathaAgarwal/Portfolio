@@ -1,0 +1,129 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(0, 0, 0);
+    background-size: 180% 180%;
+}
+p{
+    color: rgb(38, 38, 38);
+}
+li{
+    color: rgb(38, 38, 38);
+}
+.gradient-background{
+    background-color: rgb(135, 118, 123);
+    background-size: 180% 180%;
+    border:3px solid black;
+    border-radius: 5%;
+    margin:30px 30px;
+    box-shadow: 10px 10px;
+}
+span{
+    font-family: cursive;
+}
+@keyframes flyInFromLeft {
+    from {
+      transform: translateX(-100%);  
+      opacity: 0;                    
+    }
+    to {
+      transform: translateX(0);    
+      opacity: 1;                    
+    }
+  }
+  
+  .fly-in-text {
+    animation: flyInFromLeft 2.0s ease-out forwards; 
+    display: inline-block;                     
+  }
+  
+
+.text-bg-primary{
+    background-color:#000000
+}
+.pro{
+    position: relative;
+    height: 350px !important;
+    width: 380px !important;
+    padding: 0px;
+    border-bottom: 10px;
+    overflow: hidden;
+    text-align: center;
+}
+.hover-text{
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+.hover-img{
+  transition: all 0.5s ease;
+}
+.pro:hover .hover-img{
+    bottom: 0px !important;
+    left: 0px !important;
+    width: 50px;
+    height: 50px;
+    transform: none;
+    
+}
+.pro:hover .hover-text {
+    opacity: 1;
+  }
+.btn-primary{
+    background-color: #000000;
+    border-radius: 30px;
+    box-shadow: 1px 1px;
+    border: 3px solid;
+    color: rgb(255, 255, 255);
+}
+.btn-primary:hover{
+    background-color: rgb(255, 255, 255);
+    border: 3px solid white;
+    color: #000000;
+}
+.btn-outline-secondary {
+    color: rgb(55, 47, 57);
+    border: 2px solid rgb(55, 47, 57);
+    border-radius: 30px;
+}
+.btn-outline-secondary:hover{
+    background-color: rgb(255, 255, 255);
+    border: 3px solid white;
+    color: #000000;
+}
+.list{
+    list-style-type: none;
+    padding: 0%;
+}
+
+.feature{
+    height: 250px;
+    width: 400px;
+    margin-right: 20px;
+    border: 1px solid black;
+    border-radius: 30px;
+    transition: 0.2s ease;
+}
+.feature:hover{
+    scale:1.2;
+}
+.feature-icon{
+    background-color: #000000 !important;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+   
+}
+.nav-link{
+    color: black;
+    border: 1px solid #000000;
+    margin-right: 5px;
+}
+.nav-link:hover{
+    background-color: #000000 !important;
+    border-radius: 10px;
+    box-shadow: 3px 3px black;
+    border: 0.5px solid black;
+    
+}
+a{
+    text-decoration: none;
+}
