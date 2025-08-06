@@ -1,3 +1,4 @@
+console.log("Portfolio website loaded successfully!");
 document.body.style.overflow = "hidden";
 window.addEventListener("load",() => {
     const l=document.querySelector(".loader");
